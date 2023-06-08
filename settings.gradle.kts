@@ -8,8 +8,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        mavenLocal()
-//        maven(url = "https://s01.oss.sonatype.org/content/repositories/snapshots/")
+        maven(url = "https://s01.oss.sonatype.org/content/repositories/snapshots/")
         google()
         mavenCentral()
     }
@@ -17,4 +16,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Sample App"
 include(":app")
- 
