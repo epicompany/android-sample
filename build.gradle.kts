@@ -4,6 +4,6 @@ plugins {
     //FIXME Find a way to reuse versions from the gradle catalog while allowing
     // the example project to be built in a standalone manner
     id("com.android.application") version ("8.1.2") apply false
-    id("org.jetbrains.kotlin.android") version ("1.9.10") apply false
+    id("org.jetbrains.kotlin.android") version ("1.9.20") apply false
 }
 //true // Needed to make the Suppress annotation work for the plugins block
