@@ -44,7 +44,7 @@ android {
     composeOptions {
         //FIXME Find a way to reuse versions from the gradle catalog while allowing
         // the example project to be built in a standalone manner
-        kotlinCompilerExtensionVersion = "1.5.4"
+        kotlinCompilerExtensionVersion = "1.5.8"
     }
     packaging {
         resources {
